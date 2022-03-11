@@ -1,19 +1,22 @@
-html{
-box-sizing: borderbox;
-background-color: #f2f1ed;
-font-family: "patua One", sans-serif;
-line-height: 1.5;
+html {
+  box-sizing: border-box;
+  background-color: #f2f1ed;
+  font-family: "patua One", sans-serif;
+  line-height: 1.5;
 }
 
-*, *: ::before, *::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
+
 img {
   width: 100%;
 }
+
 h1, h2 {
   color: #5d8432;
   text-transform: uppercase;
+  font-family: "patua One", sans-serif;
 }
 
 figcaption {
@@ -21,22 +24,27 @@ figcaption {
   font-style: italic;
   text-align: center;
 }
+
 nav {
   font-size: 1.125rem;
   font-weight: bold;
+  font-family: "patua One", sans-serif;
 }
+
 nav ol {
   list-style-type: none;
-
 }
+
 nav a {
   color: #793284;
   text-decoration: none;
 }
+
 nav a:hover {
   color: #b42885;
   text-decoration: underline;
 }
+
 .intro {
   font-size: 1rem;
 }
